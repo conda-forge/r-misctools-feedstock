@@ -1,4 +1,4 @@
-{% set version = '0.6-22' %}
+{% set version = "0.6-26" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -11,12 +11,12 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/miscTools_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/miscTools/miscTools_{{ version }}.tar.gz
-  sha256: d00bb2602d1d31e9e1e13c8868cfe69d432bbe15afa8d4bbb83b3c9e0b9dcfea
+  sha256: be3c5a63ca12ce7ce4d43767a1815cd3dcf32664728ade251cfb03ea6f77fc9a
 
 build:
   noarch: generic
   merge_build_host: True  # [win]
-  number: 1002
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
