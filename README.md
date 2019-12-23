@@ -3,7 +3,7 @@ About r-misctools
 
 Home: http://www.micEcon.org
 
-Package license: GPL (>= 2)
+Package license: GPL-2
 
 Feedstock license: BSD 3-Clause
 
