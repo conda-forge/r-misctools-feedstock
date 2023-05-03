@@ -1,11 +1,11 @@
-About r-misctools
-=================
+About r-misctools-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-misctools-feedstock/blob/main/LICENSE.txt)
 
 Home: http://www.micEcon.org
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-misctools-feedstock/blob/main/LICENSE.txt)
 
 Summary: Miscellaneous small tools and utilities. Many of them facilitate the work with matrices, e.g. inserting rows or columns, creating symmetric matrices, or checking for semidefiniteness. Other tools facilitate the work with regression models, e.g. extracting the standard errors, obtaining the number of (estimated) parameters, or calculating R-squared values.
 
